@@ -68,7 +68,9 @@
           </div>
           <div class="b-header">
               <div class="search-input">
-                  <input type="text" placeholder="搜索">
+                  <router-link to="./search">
+                     <input type="text" placeholder="搜索">
+                  </router-link>
               </div>
           </div>
       </div>
